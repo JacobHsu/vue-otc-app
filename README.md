@@ -11,8 +11,15 @@ yarn run serve
 ```
 
 ### Compiles and minifies for production
+
+```s
+$ yarn run build
 ```
-yarn run build
+
+`yarn add -D gh-pages`  
+
+```s
+$ yarn deploy
 ```
 
 ### Run your tests
