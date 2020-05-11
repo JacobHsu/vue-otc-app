@@ -10,6 +10,13 @@
         <span v-text="$t('g_network_unreachable')"></span>
       </div>
     </div>
+
+    <b-col md="6" class="mb-3">
+      <p>Reverse spinning animation:</p>
+      <b-icon icon="arrow-counterclockwise" animation="spin-reverse" font-scale="4"></b-icon>
+    </b-col>
+    <!-- <section class="h-100 bg-dark">
+    </section> -->
   </div>
 </template>
 
