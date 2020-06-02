@@ -4,9 +4,22 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <keep-alive>
+      <router-view/>
+    </keep-alive>
+    <tab-bar></tab-bar>
   </div>
 </template>
+
+<script>
+import TabBar from '@/views/components/TabBar'
+export default {
+  name: 'app',
+  components: {
+    TabBar
+  }
+}
+</script>>
 
 <style lang="scss">
 

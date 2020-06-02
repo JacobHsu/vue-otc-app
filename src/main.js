@@ -5,6 +5,7 @@ import store from './store'
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
+import '@/assets/bootstrap.css'
 
 import GBem from '@/directives/GBem'
 import i18n from './i18n'
